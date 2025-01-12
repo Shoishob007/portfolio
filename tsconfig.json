@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.jsx", "app/page.jsx", "context/active-section-context.tsx", "context/theme-context.jsx", "lib/types.ts", "lib/hooks.js", "lib/data.js", "lib/utils.js", "email/contact-form-email.jsx", "components/about.jsx", "components/contact.tsx", "components/education.jsx", "components/experience.jsx", "components/footer.jsx", "components/header.jsx", "components/intro.jsx", "components/project.jsx", "components/projects.jsx", "components/section-divider.jsx", "components/section-heading.jsx", "components/skills.jsx", "components/submit-btn.jsx", "components/theme-switch.jsx", "actions/sendEmail.js"],
+  "exclude": ["node_modules"]
+}
