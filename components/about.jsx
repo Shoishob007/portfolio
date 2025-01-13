@@ -29,12 +29,12 @@ export default function About() {
         efficient solutions are the most rewarding parts of my journey. My core
         stack includes{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React.js, Express.js, Next.js, Node.js, and MongoDB
         </span>
         , and I am experienced with{" "}
-        <span className="font-medium">JavaScript, TypeScript and Prisma</span>. I am
-        currently playing a <span className="font-medium">full-time role</span>{" "}
-        as a <span className="font-medium">Junior Software Engineer</span> where I can grow and contribute.
+        <span className="font-medium">JavaScript and TypeScript</span>. I am
+        currently playing a <span className="">full-time role</span>{" "}
+        as a <span className="font-medium">Junior Software Engineer</span> where I hope to grow and contribute.
       </p>
 
       <p>
