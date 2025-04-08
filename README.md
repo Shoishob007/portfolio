@@ -1,10 +1,9 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+## Project Overview
+The application is built using Next.js and JavaScript+TypeScript. It provides an intuitive user interface for showcasing my about information, skills, education and professional experiences. User can contact me via email, integrated by react-resend.
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+## I have used
 
-## What you will learn
-
-- Latest Next.js 13 features
+- Next.js 13
 - Next.js App Router
 - Next.js Server Actions
 - Client & Server Components
@@ -18,13 +17,30 @@
 - Light & Dark mode
 - Responsive website
 
-## Important
+## Setup Instructions
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Shoishob007/portfolio.git
+    ```
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+2. **Navigate to the project directory:**
+    ```bash
+    cd portfolio
+    ```
+3. **Run the Application:**
+    1. Start the frontend development server:
+        ```bash
+        npm run dev
+        ```
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
 
-## Setup
+The frontend development server should be running on `http://localhost:3000/`.
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+### What I Learned
+
+1. **Next App router and server actions as well as the client and server components**
+2. **Context API and react custom hook**
+3. **Framer motion animation library**
+4. **React Email and Resend library and api services**
+5. **Intersection Observer API**
+
