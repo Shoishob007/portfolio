@@ -59,17 +59,19 @@ export default function Intro() {
       </div>
 
       <motion.h1
-  className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl"
-  initial={{ opacity: 0, y: 100 }}
-  animate={{ opacity: 1, y: 0 }}
->
-  <span className="font-bold">Hello, I'm Shoishob.</span> As a{" "}
-  <span className="font-bold">frontend developer</span>, Currently working with{" "}
-  <span className="font-semibold">Next.js</span> and modern web technologies and UI libraries. I enjoy creating{" "}
-  <span className="">dynamic, user-focused applications</span> that solve real-world problems. 
-  My approach is driven by a strong understanding of <span className="">system development</span> and a passion for delivering high-quality, scalable solutions.
-</motion.h1>
-
+        className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Hello, I'm Shoishob.</span> As a{" "}
+        <span className="font-bold">frontend developer</span>, Currently working
+        with <span className="font-semibold">Next.js</span> and modern web
+        technologies and UI libraries. I enjoy creating{" "}
+        <span className="">dynamic, user-focused applications</span> that solve
+        real-world problems. My approach is driven by a strong understanding of{" "}
+        <span className="">system development</span> and a passion for
+        delivering high-quality, scalable solutions.
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -93,7 +95,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Shoishob_Ahmed_Software_Engineer_Resume.pdf"
+          href="/Shoishob_Ahmed_Resume.pdf"
           download
         >
           Download CV{" "}
