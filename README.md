@@ -1,80 +1,45 @@
-# Renata PLC Projects
+## Project Overview
+The application is built using Next.js and JavaScript+TypeScript. It provides an intuitive user interface for showcasing my about information, skills, education and professional experiences. User can contact me via email, integrated by react-resend.
 
-Welcome to the Renata PLC Projects repo!  
-This repository contains two applications in separate directories:
+## I have used
 
-- **chart-app**: A modern, interactive chart application featuring a bar chart (product sales) and a gauge chart (monthly performance).
-- **analytical-dash**: A full-stack analytical dashboard for admins, sales representatives, and users with robust CRUD operations and role-based access.
-
----
-
-## Tech Stack
-
-- **Next.js 15** (App Router, Client/Server Components)
-- **JavaScript** (Beginner & Intermediate)
-- **Tailwind CSS**
-- **Context API**
-- **Advanced Animations**
-- **chart.js** and **recharts**
-- **Custom React hooks**
-- **Modern, Shadcn UI**
-- **better-sqlite3**
-- **bcrypt.js**
-
----
-
-## Project Structure
-
-```
-Renata_PLC_Projects/
-  ├── chart-app/         # Chart Application
-  └── analytical-dash/   # Analytical Dashboard (Fullstack)
-```
-
----
+- Next.js 13
+- Next.js App Router
+- Next.js Server Actions
+- Client & Server Components
+- TypeScript (Beginner & Intermediate)
+- Tailwind CSS
+- Context API
+- Advanced Animations with Framer Motion
+- React.Email & Resend
+- Custom React hooks
+- Fresh, modern UI design
+- Light & Dark mode
+- Responsive website
 
 ## Setup Instructions
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Shoishob007/portfolio.git
+    ```
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Shoishob007/Renata_PLC_Projects.git
-cd Renata_PLC_Projects
-```
-
----
-
-### 2. Running the Chart Application (`chart-app`)
-
-```bash
-cd chart-app
-npm install
-npm run dev
-```
-- The Chart Application will be available at [http://localhost:3000/](http://localhost:3000/).
-
----
-
-### 3. Running the Analytical Dashboard (`analytical-dash`)
-
-Open a new terminal tab or window, then:
-
-```bash
-cd analytical-dash
-npm install
-npm run dev
-```
-- The Analytical Dashboard will be available at [http://localhost:3011/](http://localhost:3011/).
-
----
-
-## Notes
-
-- **Run each app separately** in its own terminal tab/window.  
-- Both applications are independent and can be started/stopped individually.
-
----
+2. **Navigate to the project directory:**
+    ```bash
+    cd portfolio
+    ```
+3. **Run the Application:**
+    1. Start the frontend development server:
+        ```bash
+        npm run dev
+        ```
 
 
+The frontend development server should be running on `http://localhost:3000/`.
 
-For inquiries, contact [Shoishob007](https://github.com/Shoishob007).
+### What I Learned
+
+1. **Next App router and server actions as well as the client and server components**
+2. **Context API and react custom hook**
+3. **Framer motion animation library**
+4. **React Email and Resend library and api services**
+5. **Intersection Observer API**
