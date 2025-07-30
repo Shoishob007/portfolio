@@ -43,4 +43,3 @@ The frontend development server should be running on `http://localhost:3000/`.
 3. **Framer motion animation library**
 4. **React Email and Resend library and api services**
 5. **Intersection Observer API**
-
